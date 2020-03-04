@@ -1,0 +1,1370 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-03 23:33+0900\n"
+"PO-Revision-Date: 2019-11-27 12:59+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: website/templates/emails/access_request_rejected.html.mako:9
+#: website/templates/emails/access_request_submitted.html.mako:9
+#: website/templates/emails/conference_failed.html.mako:6
+#: website/templates/emails/conference_inactive.html.mako:6
+#: website/templates/emails/conference_submitted.html.mako:6
+#: website/templates/emails/confirm.html.mako:6
+#: website/templates/emails/confirm_merge.html.mako:6
+#: website/templates/emails/confirm_moderation.html.mako:6
+#: website/templates/emails/confirm_preprints_branded.html.mako:6
+#: website/templates/emails/confirm_preprints_osf.html.mako:6
+#: website/templates/emails/contributor_added_access_request.html.mako:9
+#: website/templates/emails/contributor_added_default.html.mako:9
+#: website/templates/emails/external_confirm_create.html.mako:6
+#: website/templates/emails/external_confirm_link.html.mako:6
+#: website/templates/emails/external_confirm_success.html.mako:6
+#: website/templates/emails/forward_invite.html.mako:9
+#: website/templates/emails/forward_invite.html.mako:21
+#: website/templates/emails/forward_invite_registered.html.mako:6
+#: website/templates/emails/forward_invite_registered.html.mako:18
+#: website/templates/emails/initial_confirm.html.mako:6
+#: website/templates/emails/invite_default.html.mako:9
+#: website/templates/emails/moderator_added.html.mako:6
+#: website/templates/emails/new_public_project.html.mako:6
+#: website/templates/emails/password_reset.html.mako:6
+#: website/templates/emails/primary_email_changed.html.mako:6
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:3
+#: website/templates/emails/reviews_submission_confirmation.html.mako:13
+#, python-format
+msgid "Hello %(fullname)s,"
+msgstr ""
+
+#: website/templates/emails/access_request_rejected.html.mako:11
+#, python-format
+msgid ""
+"This email is to inform you that your request for access to the project "
+"at %(absolute_url)s has been declined."
+msgstr ""
+
+#: website/templates/emails/access_request_rejected.html.mako:13
+#: website/templates/emails/access_request_submitted.html.mako:17
+#: website/templates/emails/conference_submitted.html.mako:29
+#: website/templates/emails/confirm_moderation.html.mako:16
+#: website/templates/emails/confirm_preprints_osf.html.mako:12
+#: website/templates/emails/contributor_added_access_request.html.mako:15
+#: website/templates/emails/contributor_added_default.html.mako:17
+#: website/templates/emails/crossref_doi_error.html.mako:16
+#: website/templates/emails/forward_invite.html.mako:29
+#: website/templates/emails/forward_invite_registered.html.mako:26
+#: website/templates/emails/invite_default.html.mako:33
+#: website/templates/emails/moderator_added.html.mako:14
+#: website/templates/emails/new_public_project.html.mako:22
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:32
+#: website/templates/emails/reviews_submission_confirmation.html.mako:88
+#: website/templates/emails/reviews_update_comment.html.mako:24
+#: website/templates/emails/welcome.html.mako:55
+#: website/templates/emails/welcome_osf4i.html.mako:59
+msgid "Sincerely,"
+msgstr ""
+
+#: website/templates/emails/access_request_rejected.html.mako:15
+#: website/templates/emails/access_request_submitted.html.mako:19
+#: website/templates/emails/conference_submitted.html.mako:31
+#: website/templates/emails/confirm.html.mako:16
+#: website/templates/emails/contributor_added_access_request.html.mako:17
+#: website/templates/emails/external_confirm_create.html.mako:14
+#: website/templates/emails/external_confirm_link.html.mako:14
+#: website/templates/emails/external_confirm_success.html.mako:10
+#: website/templates/emails/forward_invite.html.mako:31
+#: website/templates/emails/forward_invite_registered.html.mako:28
+#: website/templates/emails/initial_confirm.html.mako:14
+#: website/templates/emails/spam_user_banned.html.mako:12
+msgid "The GRDM Team"
+msgstr ""
+
+#: website/templates/emails/access_request_rejected.html.mako:17
+#: website/templates/emails/access_request_submitted.html.mako:21
+#: website/templates/emails/contributor_added_access_request.html.mako:19
+msgid ""
+"Want more information? Visit https://rdm.nii.ac.jp/ to learn about GRDM, "
+"or https://nii.ac.jp/ for information about its supporting organization, "
+"the National Institute of Informatics."
+msgstr ""
+
+#: website/templates/emails/access_request_rejected.html.mako:19
+#: website/templates/emails/access_request_submitted.html.mako:23
+#, python-format
+msgid "Questions? Email %(osf_mail)s"
+msgstr ""
+
+#: website/templates/emails/access_request_submitted.html.mako:11
+#, python-format
+msgid ""
+"<a %(absolute_url)s>%(fullname)s</a> has requested access to your "
+"%(project_or_component)s \"<a %(node_absolute_url)s>%(node_title)s</a>.\""
+msgstr ""
+
+#: website/templates/emails/access_request_submitted.html.mako:13
+#, python-format
+msgid ""
+"To review the request, click <a %(contributors_url)s>here</a> to allow or"
+" deny access and configure permissions."
+msgstr ""
+
+#: website/templates/emails/access_request_submitted.html.mako:15
+#, python-format
+msgid ""
+"This request is being sent to you because your project has the 'Request "
+"Access' feature enabled. This allows potential collaborators to request "
+"to be added to your project. To disable this feature, click <a "
+"%(project_settings_url)s>here</a>."
+msgstr ""
+
+#: website/templates/emails/archive_copy_error_desk.html.mako:8
+#: website/templates/emails/archive_copy_error_user.html.mako:8
+#: website/templates/emails/archive_file_not_found_desk.html.mako:8
+#: website/templates/emails/archive_file_not_found_user.html.mako:8
+#: website/templates/emails/archive_size_exceeded_desk.html.mako:7
+#: website/templates/emails/archive_size_exceeded_user.html.mako:7
+#, python-format
+msgid "Issue registering <a %(src_url)s>%(src_title)s</a>"
+msgstr ""
+
+#: website/templates/emails/archive_copy_error_desk.html.mako:14
+#: website/templates/emails/archive_file_not_found_desk.html.mako:13
+#: website/templates/emails/archive_size_exceeded_desk.html.mako:12
+#: website/templates/emails/archive_uncaught_error_desk.html.mako:13
+msgid "User:"
+msgstr ""
+
+#: website/templates/emails/archive_copy_error_desk.html.mako:16
+#, python-format
+msgid ""
+"Tried to register %(src_title)s (%(url)s) [%(src_id)s], but the archive "
+"task failed when copying files."
+msgstr ""
+
+#: website/templates/emails/archive_copy_error_desk.html.mako:19
+#: website/templates/emails/archive_size_exceeded_desk.html.mako:17
+#: website/templates/emails/archive_uncaught_error_desk.html.mako:18
+msgid "A report is included below:"
+msgstr ""
+
+#: website/templates/emails/archive_copy_error_user.html.mako:13
+msgid ""
+"We cannot archive ${src.title} at this time because there were errors "
+"copying files from some of the linked third-party services. It's possible"
+" that this is due to temporary unavailability of one or more of these "
+"services and that retrying the registration may resolve this issue. Our "
+"development team is investigating this failure. We're sorry for any "
+"inconvenience this may have caused."
+msgstr ""
+
+#: website/templates/emails/archive_file_not_found_desk.html.mako:15
+#, python-format
+msgid ""
+"Tried to register %(src_title)s (%(url)s) [%(src_id)s], but the archive "
+"task failed when copying files. At least one file selected in the "
+"registration schema was moved or deleted in between its selection and "
+"archival."
+msgstr ""
+
+#: website/templates/emails/archive_file_not_found_desk.html.mako:20
+#, python-format
+msgid "%(file_name)s on question \"%(questions_title)s\""
+msgstr ""
+
+#: website/templates/emails/archive_file_not_found_user.html.mako:13
+#, python-format
+msgid ""
+"Your registration for the project %(src_title)s at %(absolute_url)s "
+"failed because one of more of the following files have been altered since"
+" you attached them to the draft registration. To fix this problem, please"
+" go to <a %(draft_absolute_url)s>your draft registration</a> and select "
+"the files you want to be included in your registration."
+msgstr ""
+
+#: website/templates/emails/archive_file_not_found_user.html.mako:18
+#, python-format
+msgid "%(file_name)s on question \"%(question_title)s\""
+msgstr ""
+
+#: website/templates/emails/archive_registration_stuck_desk.html.mako:7
+#, python-format
+msgid "%(len_broken_registrations)s registrations found stuck in archiving</a>"
+msgstr ""
+
+#: website/templates/emails/archive_registration_stuck_desk.html.mako:12
+msgid "See attached file for details."
+msgstr ""
+
+#: website/templates/emails/archive_registration_stuck_desk.html.mako:14
+msgid "Automatically sent from scripts/stuck_registration_audit.py"
+msgstr ""
+
+#: website/templates/emails/archive_size_exceeded_desk.html.mako:14
+#, python-format
+msgid ""
+"Tried to register %(src_title)s (%(url)s), but the resulting archive "
+"would have exceeded our caps for disk usage (%(max_archive_size)sGB)."
+msgstr ""
+
+#: website/templates/emails/archive_size_exceeded_user.html.mako:12
+#, python-format
+msgid ""
+"We cannot archive %(src_title)s at this time because the projected size "
+"of the registration exceeds our usage limits. You should receive a "
+"followup email from our support team shortly. We're sorry for any "
+"inconvenience this may have caused."
+msgstr ""
+
+#: website/templates/emails/archive_success.html.mako:9
+#, python-format
+msgid "Registration of <b><a %(src_title)s>${src.title}</a></b> finished"
+msgstr ""
+
+#: website/templates/emails/archive_success.html.mako:14
+#, python-format
+msgid "You can view the registration <a %(src_url)s>here.</a>"
+msgstr ""
+
+#: website/templates/emails/archive_uncaught_error_desk.html.mako:15
+#, python-format
+msgid ""
+"Tried to register %(src_title)s (%(url)s) [%(src_id)s], but the archive "
+"task failed unexpectedly."
+msgstr ""
+
+#: website/templates/emails/conference_failed.html.mako:8
+msgid ""
+"You recently tried to create a project on the GakuNin RDM via email, but "
+"your message did not contain any file attachments. Please try again, "
+"making sure to attach the files you'd like to upload to your message."
+msgstr ""
+
+#: website/templates/emails/conference_failed.html.mako:11
+#: website/templates/emails/conference_inactive.html.mako:10
+#: website/templates/emails/confirm.html.mako:14
+#: website/templates/emails/confirm_preprints_branded.html.mako:12
+#: website/templates/emails/password_reset.html.mako:16
+#: website/templates/emails/primary_email_changed.html.mako:12
+msgid "Sincerely yours,"
+msgstr ""
+
+#: website/templates/emails/conference_failed.html.mako:13
+#: website/templates/emails/conference_inactive.html.mako:12
+#: website/templates/emails/password_reset.html.mako:18
+#: website/templates/emails/primary_email_changed.html.mako:14
+msgid "The GRDM Robot"
+msgstr ""
+
+#: website/templates/emails/conference_inactive.html.mako:8
+#, python-format
+msgid ""
+"You recently tried to create a project on the GakuNin RDM via email, but "
+"the conference you attempted to submit to is not currently accepting new "
+"submissions. For a list of conferences, see [ %(presentations_url)s ]."
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:8
+#, python-format
+msgid ""
+"Congratulations! You have successfully added your %(conf_full_name)s "
+"%(presentation_type)s to the GakuNin RDM (GRDM)."
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:11
+#, python-format
+msgid ""
+"Your account on the GakuNin RDM has been created. To claim your account, "
+"please create a password by clicking here: %(set_password_url)s. Please "
+"verify your profile information at: %(profile_url)s."
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:14
+#, python-format
+msgid ""
+"You now have a permanent, citable URL, that you can share: %(node_url)s. "
+"All submissions for %(conf_full_name)s may be viewed at the following "
+"link: %(conf_view_url)s."
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:17
+msgid ""
+"Your email was flagged as spam by our mail processing service. To prevent"
+" potential spam, we have made your project private. If this is a real "
+"project, please log in to your account, browse to your project, and click"
+" the \"Make Public\" button so that other users can view it."
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:20
+msgid "Get more from the GRDM by enhancing your project with the following:"
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:22
+msgid "Collaborators/contributors to the submission"
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:23
+msgid "Charts, graphs, and data that didn't make it onto the submission"
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:24
+msgid "Links to related publications or reference lists"
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:25
+msgid ""
+"Connecting other accounts, like Dropbox, Google Drive, GitHub, figshare "
+"and Mendeley via add-on integration. Learn more and read the full list of"
+" available add-ons:"
+msgstr ""
+
+#: website/templates/emails/conference_submitted.html.mako:27
+msgid "To learn more about the GRDM, visit:"
+msgstr ""
+
+#: website/templates/emails/confirm.html.mako:8
+msgid "This email address has been added to an account on the GakuNin RDM."
+msgstr ""
+
+#: website/templates/emails/confirm.html.mako:10
+#: website/templates/emails/external_confirm_create.html.mako:10
+#: website/templates/emails/external_confirm_link.html.mako:10
+#: website/templates/emails/initial_confirm.html.mako:10
+msgid "Please verify your email address by visiting this link:"
+msgstr ""
+
+#: website/templates/emails/confirm_merge.html.mako:8
+#, python-format
+msgid ""
+"This email is to notify you that %(username)s has initiated an account "
+"merge with your account on the GakuNin RDM (GRDM). This merge will move "
+"all of the projects and components associated with $(email)s and with "
+"%(username)s into one account. All projects and components will be "
+"displayed under %(username)s."
+msgstr ""
+
+#: website/templates/emails/confirm_merge.html.mako:10
+msgid ""
+"Both ${user.username} and ${email} can be used to log into the account. "
+"However, ${email} will no longer show up in user search."
+msgstr ""
+
+#: website/templates/emails/confirm_merge.html.mako:12
+#, python-format
+msgid ""
+"This action is irreversible. To confirm this account merge, click this "
+"link: %(confirmation_url)s."
+msgstr ""
+
+#: website/templates/emails/confirm_merge.html.mako:14
+msgid ""
+"If you do not wish to merge these accounts, no action is required on your"
+" part. If you have any questions about this email, please direct them to "
+"${osf_support_email}."
+msgstr ""
+
+#: website/templates/emails/confirm_merge.html.mako:16
+#: website/templates/emails/file_operation_failed.html.mako:76
+#: website/templates/emails/file_operation_success.html.mako:75
+#: website/templates/emails/forgot_password.html.mako:10
+#: website/templates/emails/notify_base.mako:79
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:35
+msgid "National Institute of Informatics"
+msgstr ""
+
+#: website/templates/emails/confirm_moderation.html.mako:12
+msgid ""
+"Once you have set a password you will be able to moderate submissions and"
+" create your own %(provider.preprint_word)s. You will automatically be "
+"subscribed to notification emails for new %(provider.preprint_word})s "
+"submissions to %(provider.name)s."
+msgstr ""
+
+#: website/templates/emails/confirm_moderation.html.mako:14
+msgid ""
+"If you are not %(user.fullname)s or you have been erroneously associated "
+"with %(provider.name)s, email contact+%(provider._id)s@rdm.nii.ac.jp with"
+" the subject line \"Claiming error\" to report the problem."
+msgstr ""
+
+#: website/templates/emails/confirm_moderation.html.mako:17
+msgid "Your %(provider.name)s and GRDM teams"
+msgstr ""
+
+#: website/templates/emails/confirm_preprints_branded.html.mako:8
+msgid ""
+"Welcome to %(branded_preprints_provider), powered by the GakuNin RDM. To "
+"continue, please verify your email address by visiting this link:"
+msgstr ""
+
+#: website/templates/emails/confirm_preprints_branded.html.mako:14
+msgid "Your ${branded_preprints_provider} and GRDM teams"
+msgstr ""
+
+#: website/templates/emails/confirm_preprints_osf.html.mako:8
+msgid ""
+"Welcome to the GakuNin RDM and GRDM Preprints. To continue, please verify"
+" your email address by visiting this link:"
+msgstr ""
+
+#: website/templates/emails/confirm_preprints_osf.html.mako:14
+#: website/templates/emails/contributor_added_default.html.mako:19
+#: website/templates/emails/crossref_doi_error.html.mako:18
+#: website/templates/emails/invite_default.html.mako:35
+msgid "GakuNin RDM Robot"
+msgstr ""
+
+#: website/templates/emails/contributor_added_access_request.html.mako:21
+msgid "Questions? Email ${osf_contact_email}"
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako:15
+msgid ""
+"If you are erroneously being associated with \"%(node.title)s,\" then you"
+" may visit the project's \"Contributors\" page and remove yourself as a "
+"contributor."
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako:21
+#: website/templates/emails/invite_default.html.mako:37
+msgid ""
+"Want more information? Visit https://rdm.nii.ac.jp/ to learn about the "
+"GakuNin RDM, or https://nii.ac.jp/ for information about its supporting "
+"organization, the National Institute of Informatics."
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako:23
+#, python-format
+msgid "Questions? Email %(osf_contact_email)s"
+msgstr ""
+
+#: website/templates/emails/crossref_doi_error.html.mako:1
+msgid "Hello GRDM Support,"
+msgstr ""
+
+#: website/templates/emails/crossref_doi_error.html.mako:3
+msgid ""
+"An error occurred while registering a DOI or updating the metadata for "
+"preprint(s) with CrossRef."
+msgstr ""
+
+#: website/templates/emails/crossref_doi_error.html.mako:5
+msgid "batch_id:"
+msgstr ""
+
+#: website/templates/emails/crossref_doi_error.html.mako:7
+msgid "Here is the original content of the error message:"
+msgstr ""
+
+#: website/templates/emails/digest.html.mako:39
+#: website/templates/emails/file_operation_failed.html.mako:45
+#: website/templates/emails/file_operation_success.html.mako:45
+#: website/templates/emails/transactional.html.mako:8
+msgid "Recent Activity"
+msgstr ""
+
+#: website/templates/emails/digest_reviews_moderators.html.mako:11
+#, python-format
+msgid "Visit your <a %(reviews_submissions_url)s>provider’s submissions"
+msgstr ""
+
+#: website/templates/emails/digest_reviews_moderators.html.mako:31
+#, python-format
+msgid "Recent Submissions to %(provider_name)s"
+msgstr ""
+
+#: website/templates/emails/external_confirm_create.html.mako:8
+#, python-format
+msgid ""
+"Thank you for registering with %(external_id_provider)s for an account on"
+" the GakuNin RDM. We will add ${external_id_provider} to your GRDM "
+"profile."
+msgstr ""
+
+#: website/templates/emails/external_confirm_link.html.mako:8
+#, python-format
+msgid ""
+"Thank you for linking your %(external_id_provider)s account to the "
+"GakuNin RDM. We will add ${external_id_provider} to your GRDM profile."
+msgstr ""
+
+#: website/templates/emails/external_confirm_success.html.mako:8
+#, python-format
+msgid ""
+"Congratulations! You have successfully linked your "
+"%(external_id_provider)s account to the GakuNin RDM (GRDM)."
+msgstr ""
+
+#: website/templates/emails/file_operation_failed.html.mako:10
+#: website/templates/emails/file_operation_success.html.mako:10
+msgid "NII Email Notification Template"
+msgstr ""
+
+#: website/templates/emails/file_operation_failed.html.mako:77
+#: website/templates/emails/file_operation_success.html.mako:76
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:38
+msgid "Privacy Policy"
+msgstr ""
+
+#: website/templates/emails/file_operation_failed.html.mako:78
+#: website/templates/emails/file_operation_success.html.mako:77
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:36
+msgid "2-1-2 Hitotsubashi, Chiyoda Ward, Tokyo 101-8430, JAPAN"
+msgstr ""
+
+#: website/templates/emails/file_updated.html.mako:5
+#, python-format
+msgid "At %(localized_timestamp)s:"
+msgstr ""
+
+#: website/templates/emails/forgot_password.html.mako:6
+msgid "Follow this link to reset your password"
+msgstr ""
+
+#: website/templates/emails/fork_completed.html.mako:9
+#, python-format
+msgid "The fork of <b>%(title)s</b> has been successfully created here:"
+msgstr ""
+
+#: website/templates/emails/fork_failed.html.mako:10
+#, python-format
+msgid ""
+"An error has occurred, and the fork of <b>%(title)s</b> on the GakuNin "
+"RDM was not successfully created. Please log in and try this action "
+"again. If the problem persists, please email rdm_support@nii.ac.jp."
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:11
+#: website/templates/emails/forward_invite_registered.html.mako:8
+#, python-format
+msgid ""
+"You recently added %(fullname)s to \"%(node_title)s\". %(fullname)s wants"
+" to claim their account, but the email address they provided is different"
+" from the one you provided.  To maintain security of your project, we are"
+" sending the account confirmation to you first."
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:13
+#: website/templates/emails/forward_invite_registered.html.mako:10
+#, python-format
+msgid ""
+"IMPORTANT: To ensure that the correct person is added to your project "
+"please forward the message below to %(fullname)s."
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:15
+#: website/templates/emails/forward_invite_registered.html.mako:12
+#, python-format
+msgid ""
+"After %(fullname)s confirms their account, they will be able to "
+"contribute to the project."
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:23
+#, python-format
+msgid ""
+"You have been added by %(fullname)s as a contributor to the project "
+"\"${node_title}\" on the GakuNin RDM. To set a password for your account,"
+" visit:"
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:27
+msgid ""
+"Once you have set a password, you will be able to make contributions to "
+"${node.title}. You will automatically be subscribed to notification "
+"emails for this project. To change your email notification preferences, "
+"visit your project or your user settings:"
+msgstr ""
+
+#: website/templates/emails/forward_invite.html.mako:33
+msgid ""
+"Want more information? Visit https://rdm.nii.ac.jp/ or https://nii.ac.jp/"
+" for information about the GakuNin RDM and its supporting organization, "
+"the National Institute of Informatics. Questions? Email "
+"${osf_contact_email}."
+msgstr ""
+
+#: website/templates/emails/forward_invite_registered.html.mako:20
+#, python-format
+msgid ""
+"You have been added by %(fullname)s as a contributor to the project "
+"\"${node.title}\" on the GakuNin RDM. To claim yourself as a contributor "
+"to the project, visit this url:"
+msgstr ""
+
+#: website/templates/emails/forward_invite_registered.html.mako:24
+msgid ""
+"Once you are logged in, you will be able to make contributions to "
+"%(node.title)s."
+msgstr ""
+
+#: website/templates/emails/forward_invite_registered.html.mako:30
+msgid ""
+"Want more information? Visit https://rdm.nii.ac.jp/ or https://nii.ac.jp/"
+" for information about the GakuNin RDM and its supporting organization, "
+"the National Institute of Informatics. Questions? Email "
+"${osf_contact_email}"
+msgstr ""
+
+#: website/templates/emails/initial_confirm.html.mako:8
+msgid "Thank you for registering for an account on the GakuNin RDM."
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:11
+msgid ""
+"You have been added by %(referrer.fullname)s as a contributor to the "
+"project \"%(node.title)s\" on the GakuNin RDM."
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:13
+msgid "To confirm for your account, visit:"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:15
+msgid "To set a password for your account, visit:"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:21
+msgid "Once you have continue,"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:23
+msgid "Once you have set a password,"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:25
+#, python-format
+msgid ""
+"you will be able to make contributions to \"%(node_title)s\" and create "
+"your own projects. You will automatically be subscribed to notification "
+"emails for this project. To change your email notification preferences, "
+"visit your project or your user settings:"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:27
+#, python-format
+msgid ""
+"To preview \"%(node.title)s\" click the following link: "
+"%(node_absolute_url)s"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:29
+msgid ""
+"(NOTE: if this project is private, you will not be able to view it until "
+"you have confirmed your account)"
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:31
+#, python-format
+msgid ""
+"If you are not %(fullname)s or you are erroneously being associated with "
+"\"%(node.title)s\" then email %(osf_email)s with the subject line "
+"\"Claiming Error\" to report the problem."
+msgstr ""
+
+#: website/templates/emails/invite_default.html.mako:39
+msgid "Questions? Email ${osf_email}"
+msgstr ""
+
+#: website/templates/emails/moderator_added.html.mako:10
+msgid ""
+"You will automatically be subscribed to notification emails for new "
+"${provider.preprint_word submissions to ${provider.name}."
+msgstr ""
+
+#: website/templates/emails/moderator_added.html.mako:12
+#, python-format
+msgid ""
+"If you are not %(fullname)s or you have been erroneously associated with "
+"%(provider_name)s, email contact+%(provider_id)s@osf.io with the subject "
+"line \"Claiming Error\" to report the problem."
+msgstr ""
+
+#: website/templates/emails/moderator_added.html.mako:16
+msgid "Your ${provider.name} and GRDM teams"
+msgstr ""
+
+#: website/templates/emails/new_pending_submissions.html.mako:5
+msgid "At ${localized_timestamp}:"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:8
+msgid ""
+"Congratulations on making a public project on the GakuNin RDM (GRDM)! Now"
+" that your project “${project_title}\" is public, you’ll be able to take "
+"advantage of more GakuNin RDM features:"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:10
+msgid "The number of downloads of your files will be automatically logged for you"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:11
+msgid "You can see analytics on how many others are accessing your projects"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:12
+msgid ""
+"Visitors to your project can cite your work using the citation widget on "
+"your project’s page"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:14
+msgid "Check out my project on the GakuNin RDM!"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:20
+#, python-format
+msgid ""
+"If you would like to learn more about how to take advantage of any of "
+"these features, visit our <a %(url)s>Guides</a>."
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:24
+#: website/templates/emails/no_addon.html.mako:17
+msgid "NII Support Team"
+msgstr ""
+
+#: website/templates/emails/new_public_project.html.mako:30
+#: website/templates/emails/no_addon.html.mako:23
+#, python-format
+msgid ""
+"The <a %(osf_url)s>GakuNin RDM</a> is provided as a free, open source "
+"service from the <a %(url)s>National Institute of Informatics</a>."
+msgstr ""
+
+#: website/templates/emails/no_addon.html.mako:8
+msgid ""
+"Do you use storage services like Dropbox, GitHub, or Google Drive to keep"
+" track of your research materials?        the GakuNin RDM (GRDM) makes it"
+" easy to integrate various research tools you already use by allowing"
+"        you to connect them as an add-on to the GakuNin RDM. When you "
+"connect an add-on, you can manage files from either the        GakuNin "
+"RDM or external storage services. Files will be synced whenever you make "
+"changes.        Get more information on GakuNin RDM add-ons."
+msgstr ""
+
+#: website/templates/emails/no_addon.html.mako:14
+#, python-format
+msgid ""
+"Link your accounts today: <a "
+"%(osf_url)s>https://rdm.nii.ac.jp/settings</a>."
+msgstr ""
+
+#: website/templates/emails/no_addon.html.mako:16
+#: website/templates/emails/welcome_osf4m.html.mako:23
+msgid "Best wishes,"
+msgstr ""
+
+#: website/templates/emails/notify_base.mako:55
+msgid ""
+"To change your moderation notification preferences,"
+"                                    visit your <a "
+"href=${notification_settings_url}>notification settings</a>."
+msgstr ""
+
+#: website/templates/emails/password_reset.html.mako:8
+msgid "The password for your GRDM account has successfully changed."
+msgstr ""
+
+#: website/templates/emails/password_reset.html.mako:10
+msgid ""
+"If you did not request this action or you believe an unauthorized person "
+"has accessed your account, reset your password immediately by visiting:"
+msgstr ""
+
+#: website/templates/emails/password_reset.html.mako:14
+#, python-format
+msgid ""
+"If you need additional help or have questions, let us know at "
+"%(osf_email)s."
+msgstr ""
+
+#: website/templates/emails/primary_email_changed.html.mako:8
+#, python-format
+msgid ""
+"The primary email address for your GRDM account has been changed to "
+"%(new_address)s."
+msgstr ""
+
+#: website/templates/emails/primary_email_changed.html.mako:10
+msgid "If you did not request this action, let us know at ${osf_email}."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:10
+msgid ""
+"%(reviewable.provider.name)s has chosen to moderate their submissions "
+"using a            pre-moderation workflow, which means your submission "
+"is pending until accepted            by a moderator."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:14
+#: website/templates/emails/reviews_submission_confirmation.html.mako:76
+msgid ""
+"You will receive a separate notification informing you of any status "
+"changes."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:22
+msgid ""
+"If you have been erroneously associated with \"${reviewable.title}\", "
+"then you            may visit the %(reviewable.provider.preprint_word)s's"
+" \"Edit\" page and remove yourself as a contributor."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:26
+#, python-format
+msgid ""
+"For more information about %(reviewable_provider_name)s, visit"
+"            <a %(href_providerUrl)s>%(provider_url)s</a> to learn more. "
+"To learn about the            GakuNin RDM, visit <a "
+"%(niiUrl)s>https://rdm.nii.ac.jp/</a>."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:30
+msgid ""
+"For questions regarding submission criteria, please email "
+"${provider_email}"
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako:33
+#, python-format
+msgid "Your %(reviewable_provider_name)s and GakuNin RDM teams"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:30
+#, python-format
+msgid ""
+"%(reviewable_provider_name)s has chosen to moderate their submissions "
+"using a pre-moderation workflow,                              which means"
+" your submission is pending until accepted by a moderator."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:33
+msgid ""
+"%(reviewable.provider.name)s has chosen to moderate their submissions "
+"using a                              post-moderation workflow, which "
+"means your submission is public and discoverable,"
+"                              while still pending acceptance by a "
+"moderator."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:41
+msgid ""
+"Now that you've shared your %(reviewable.provider.preprint_word)s, take "
+"advantage of more GakuNin RDM features:"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:43
+#, python-format
+msgid ""
+"Upload supplemental, materials, data, and code to the GakuNin RDM project"
+" associated with your %(reviewable_provider_preprint_word)s."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:44
+#: website/templates/emails/reviews_submission_status.html.mako:41
+msgid "Learn how"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:45
+msgid "Preregister your next study."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:45
+#: website/templates/emails/reviews_submission_status.html.mako:42
+msgid "Read more"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:46
+#: website/templates/emails/reviews_submission_status.html.mako:43
+msgid "Or share on social media: Tell your friends through:"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:81
+#, python-format
+msgid ""
+"If you have been erroneously associated with \"%(reviewable_title)s,\" "
+"then you may visit the %(reviewable_provider_preprint_word)s"
+"                    and remove yourself as a contributor."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako:85
+#, python-format
+msgid ""
+"Learn more about <a %(providerUrl)s>%(reviewable_provider_name)s</a> or "
+"<a %(niiUrl)s>GakuNin RDM</a>."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako:26
+msgid ""
+"The moderator has also provided a comment that is only visible to "
+"contributors        of the %(reviewable.provider.preprint_word)s, and not"
+" to others:"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako:38
+#, python-format
+msgid ""
+"Now that you've shared your %(reviewable_provider_preprint_word)s, take "
+"advantage of more GakuNin RDM features:"
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako:40
+msgid ""
+"Upload supplemental, materials, data, and code to the GakuNin RDM project"
+" associated with your ${reviewable_provider_preprint_word}."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako:75
+#, python-format
+msgid ""
+"If you have been erroneously associated with \"%(reviewable_title)s,\" "
+"then you        may visit the project's \"Contributors\" page and remove "
+"yourself as a contributor."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako:79
+#, python-format
+msgid ""
+"Learn more about <a %(privuderUrl)s>%(reviewable_provider_name)s</a> or "
+"<a %(niiUrl)s>GakuNin RDM</a>."
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako:5
+#, python-format
+msgid ""
+"Your %(reviewable_provider_preprint_word)s \"<a "
+"%(reviewable_absolute_url)s>%(reviewable_title)s</a>\" has an updated "
+"comment by the moderator:"
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako:15
+msgid ""
+"If you have been erroneously associated with \"${reviewable_title}\", "
+"then you may visit the project's        \"Contributors\" page and remove "
+"yourself as a contributor."
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako:22
+#, python-format
+msgid ""
+"For questions regarding submission criteria, please email "
+"%(provider_contact_email)s"
+msgstr ""
+
+#: website/templates/emails/send_data_share_error_desk.html.mako:7
+#, python-format
+msgid ""
+"Failed to send %(node_type)s \"%(node_title)s\" (%(node.url)s) "
+"[%(node._id)s] to SHARE (status: %(resp.status_code)s; retries: "
+"%(retries)s)"
+msgstr ""
+
+#: website/templates/emails/send_data_share_error_desk.html.mako:10
+msgid "Error:"
+msgstr ""
+
+#: website/templates/emails/spam_user_banned.html.mako:6
+#, python-format
+msgid "Dear %(fullname)s,"
+msgstr ""
+
+#: website/templates/emails/spam_user_banned.html.mako:8
+msgid ""
+"Your account on the GakuNin RDM has been flagged as spam and disabled. If"
+" this is in error, please email ${osf_email} for assistance."
+msgstr ""
+
+#: website/templates/emails/spam_user_banned.html.mako:10
+msgid "Regards,"
+msgstr ""
+
+#: website/templates/emails/support_request.html.mako:8
+msgid "Profile:"
+msgstr ""
+
+#: website/templates/emails/support_request.html.mako:10
+msgid "Primary Email:"
+msgstr ""
+
+#: website/templates/emails/transactional.html.mako:35
+msgid "You received this email because you are subscribed to email notifications."
+msgstr ""
+
+#: website/templates/emails/transactional.html.mako:36
+msgid "Update Subscription Preferences"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:14
+#: website/templates/emails/welcome_osf4i.html.mako:14
+msgid ""
+"Thank you for verifying your account on GakuNin RDM, a free, open source "
+"service maintained by the National Institute of Informatics. Here are a "
+"few things you can do with GakuNin RDM:"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:18
+#: website/templates/emails/welcome_osf4i.html.mako:18
+msgid "Select your storage location"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:19
+#: website/templates/emails/welcome_osf4i.html.mako:19
+msgid ""
+"Files can be stored in a location you specify from the available "
+"geographic regions for new projects."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:19
+#: website/templates/emails/welcome_osf4i.html.mako:19
+msgid "Set storage location."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:23
+#: website/templates/emails/welcome_osf4i.html.mako:23
+msgid "Store your files"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:24
+#: website/templates/emails/welcome_osf4i.html.mako:24
+msgid ""
+"Archive your materials, data, manuscripts, or anything else associated "
+"with your work during the research process or after it is complete."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:24
+#: website/templates/emails/welcome_osf4i.html.mako:24
+msgid "Learn how."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:28
+#: website/templates/emails/welcome_osf4i.html.mako:32
+msgid "Share your work"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:29
+#: website/templates/emails/welcome_osf4i.html.mako:33
+msgid ""
+"Keep your research materials and data private, make it accessible to "
+"specific others with view-only links, or make it publicly accessible. You"
+" have full control of what parts of your research are public and what "
+"remains private."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:29
+#: website/templates/emails/welcome_osf4i.html.mako:33
+msgid "Explore privacy settings."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:33
+msgid "Register your research"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:34
+#: website/templates/emails/welcome_osf4i.html.mako:38
+msgid ""
+"Create a permanent, time-stamped version of your projects and files.  Do "
+"this to preregister your design and analysis plan to conduct a "
+"confirmatory study, or archive your materials, data, and analysis scripts"
+" when publishing a report."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:34
+#: website/templates/emails/welcome_osf4i.html.mako:38
+msgid "Read about registrations."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:37
+#: website/templates/emails/welcome_osf4i.html.mako:41
+msgid "Make your work citable"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:38
+#: website/templates/emails/welcome_osf4i.html.mako:42
+msgid ""
+"Every project and file on the GakuNin RDM has a permanent unique "
+"identifier, and every registration can be assigned a DOI.  Citations for "
+"public projects are generated automatically so that visitors can give you"
+" credit for your research."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:38
+#: website/templates/emails/welcome_osf4i.html.mako:42
+msgid "Learn more."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:41
+#: website/templates/emails/welcome_osf4i.html.mako:45
+msgid "Measure your impact"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:42
+#: website/templates/emails/welcome_osf4i.html.mako:46
+msgid ""
+"You can monitor traffic to your public projects and downloads of your "
+"public files."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:42
+#: website/templates/emails/welcome_osf4i.html.mako:46
+msgid "Discover analytics."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:45
+#: website/templates/emails/welcome_osf4i.html.mako:49
+msgid "Connect services that you use"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:46
+#: website/templates/emails/welcome_osf4i.html.mako:50
+msgid ""
+"GakuNin RDM integrates with GitHub, Dropbox, Google Drive, Box, "
+"Dataverse, figshare, Amazon S3, ownCloud, Bitbucket, GitLab, OneDrive, "
+"Mendeley, and Zotero. Link the services that you use to your GakuNin RDM "
+"projects so that all parts of your research are in one place"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:46
+msgid "Learn about add-ons."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:49
+#: website/templates/emails/welcome_osf4i.html.mako:53
+msgid "Collaborate"
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:50
+#: website/templates/emails/welcome_osf4i.html.mako:54
+msgid ""
+"Add your collaborators to have a shared environment for maintaining your "
+"research materials and data and never lose files again."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:50
+#: website/templates/emails/welcome_osf4i.html.mako:54
+msgid "Start collaborating."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:53
+#: website/templates/emails/welcome_osf4i.html.mako:57
+#, python-format
+msgid "Learn more about GakuNin RDM by reading the <a %(url)s>Guides</a>."
+msgstr ""
+
+#: website/templates/emails/welcome.html.mako:57
+#: website/templates/emails/welcome_osf4i.html.mako:61
+msgid "The National Institute of Informatics Team"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4i.html.mako:27
+msgid "Affiliate your projects with your institution"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4i.html.mako:28
+msgid ""
+"Associate your projects with your institution. They will be added to your"
+" institution's central commons, improving discoverability of your work "
+"and fostering collaboration."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4i.html.mako:50
+msgid ">Learn about add-ons."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:8
+#, python-format
+msgid ""
+"Thanks for adding your presentation from ${conference} to the "
+"conference's <a %(osf_url)s>GakuNin RDM Meetings</a> (GRDM) page! Sharing"
+" virtually is an easy way to increase the impact of your research."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:11
+#, python-format
+msgid "Your project files have been downloaded %(downloads)s times!"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:14
+msgid ""
+"Have you considered adding your manuscript, data, or other research "
+"materials to the project? Adding these materials means:"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:16
+msgid ""
+"When someone finds your poster or talk, they can see and cite the "
+"accompanying data"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:17
+msgid "You have one place to reference when looking for your research materials"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:18
+#, python-format
+msgid ""
+"You can monitor interest in your data and materials by tracking "
+"downloads, just like you can for your %(conference)s presentation."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:20
+#, python-format
+msgid ""
+"To learn more about how the GakuNin RDM can help you manage your "
+"research, read our <a %(url)s>Guides</a>."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:21
+#, python-format
+msgid ""
+"The best part? It’s all free! GakuNin RDM is supported by the non-profit "
+"technology company, the <a %(url)s>National Institute of Informatics</a>."
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:25
+msgid "COS Support Team"
+msgstr ""
+
+#: website/templates/emails/welcome_osf4m.html.mako:30
+#, python-format
+msgid ""
+"The <a %(osf_url)s>GakuNin RDM</a> is provided as a free, open source "
+"service from the <a %(niiUrl)s>National Institute of Informatics</a>."
+msgstr ""
+
+#: website/templates/emails/comment_replies.html.mako
+msgid "%(fullname)s replied to your comment "%(parent_comment)s" on your %(provider) at %(localized_timestamp)s:"
+msgstr ""
+
+#: website/templates/emails/comments.html.mako
+msgid "%(fullname)s commented on your %(provider) at %(localized_timestamp)s:"
+msgstr ""
+
+#: website/templates/emails/confirm_moderation.html.mako
+msgid "You have been added by $(referrer.fullname)s, as an administrator to %(provider.name)s, powered by GRDM. To set a password for your account, visit:"
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako
+msgid "%(referrer_name)s has added you as a contributor to the project "%(node.title)s" on the GakuNin RDM: %(node.absolute_url)s"
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako
+msgid "%(referrer_name)s has added you as a contributor to the project "%(node.title)s" on the GakuNin RDM: %(node.absolute_url)s"
+msgstr ""
+
+#: website/templates/emails/contributor_added_access_request.html.mako
+msgid "
+%(referrer_name)s has approved your access request and added you as a contributor to the project "<a %(node_absolute_url)s>%(node.title)s</a>" on GRDM."
+msgstr ""
+
+#: website/templates/emails/contributor_added_access_request.html.mako
+msgid "
+Your access request has been approved, and you have been added as a contributor to the project "<a %(node_absolute_url)s>%(node.title)s</a>" on GRDM."
+msgstr ""
+
+#: website/templates/emails/contributor_added_access_request.html.mako
+msgid "You will not receive notification emails for this project. To change your email notification preferences, visit your project or your <a %(domain)s>user settings</a>."
+msgstr ""
+
+#: website/templates/emails/contributor_added_access_request.html.mako
+msgid "You will be automatically subscribed to notification emails for this project. To change your email notification preferences, visit your project or your <a %(domain)s>user settings</a>."
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako
+msgid "You will not receive notification emails for this project. To change your email notification preferences, visit your project or your user settings: %(domain)s"
+msgstr ""
+
+#: website/templates/emails/contributor_added_default.html.mako
+msgid "You will be automatically subscribed to notification emails for this project. To change your email notification preferences, visit your project or your user settings: %(domain)s"
+msgstr ""
+
+#: website/templates/emails/file_operation_failed.html.mako
+msgid "An error has occurred, and the folder from ${source_node.title} on the GakuNin RDM was not successfully moved.Please log in and try this action again. If the problem persists, please email %(osf_support_email)s."
+msgstr ""
+
+#: website/templates/emails/file_operation_success.html.mako
+msgid "An error has occurred, and the folder from ${source_node.title} on the GakuNin RDM was not successfully moved.Please log in and try this action again. If the problem persists, please email %(osf_support_email)s."
+msgstr ""
+
+#: website/templates/emails/global_mentions.html.mako
+msgid "%(fullname)s mentioned you in a comment on your %(provider)s at %(localized_timestamp)s:"
+msgstr ""
+
+#: website/templates/emails/notify_base.mako
+msgid "You are receiving these emails because you are an administrator on %(provider_name)s."
+msgstr ""
+
+#: website/templates/emails/notify_base.mako
+msgid "You are receiving these emails because you are a moderator on %(provider_name)s."
+msgstr ""
+
+#: website/templates/emails/notify_base.mako
+msgid "To change how often you receive emails, visit this project's settings for emails about this project or your user settings to manage default email settings."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako
+msgid "The %(reviewable_provider_preprint_word)s%(reviewable.title)s</a>has been successfully re-submitted to %(reviewable.provider.name)s."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako
+msgid "You will not receive future notification emails for this %(reviewable_provider_preprint_word)s."
+msgstr ""
+
+#: website/templates/emails/reviews_resubmission_confirmation.html.mako
+msgid "You will be automatically subscribed to future notification emails for this %(reviewable_provider_preprint_word)s."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako
+msgid "Your %(reviewable_provider_preprint_word)s %(reviewable_title)s has been successfully submitted to %(reviewable_provider_name)s."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_confirmation.html.mako
+msgid "%(referrer_fullname)s has added you as a contributor to the %(reviewable_provider_preprint_word)s %(reviewable_title)s on %(reviewable.provider.name)s, which is hosted on the GakuNin RDM."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako
+msgid "Your submission <%(reviewable_title)s, submitted to %(reviewable_provider_name)s has not been accepted. Contributors with admin permissions may edit the %(reviewable_provider_preprint_word)s and resubmit, at which time it will return to a pending state and be reviewed by a moderator."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako
+msgid "Your submission <%(reviewable_title)s, submitted to %(reviewable_provider_name)s has been accepted by the moderator and is now discoverable to others."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako
+msgid "Your submission %(reviewable_title)s, submitted to %(reviewable_provider.name)s has not been accepted and will be made private and not discoverable by others.Contributors with admin permissions may edit the %(reviewable_provider_preprint_word)s and contact the moderator at %(provider_contact_email)s to resubmit."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako
+msgid "Your submission %(reviewable_title)s, submitted to %(reviewable_provider.name)s has been accepted by the moderator and remains discoverable to others."
+msgstr ""
+
+#: website/templates/emails/reviews_submission_status.html.mako
+msgid "Your submission %(reviewable_title)s, submitted to %(reviewable_provider.name)s has been accepted by the moderator and is now discoverable to others."
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako
+msgid "You will not receive future notification emails for this %(reviewable_provider_preprint_word)s. Each %(reviewable_provider_preprint_word)s is associated with a project on the GakuNin RDM for managing the %(reviewable_provider_preprint_word)s. To change your email notification preferences, visit your <a %(domain)s>user settings</a>."
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako
+msgid "You will be automatically subscribed to future notification emails for this %(reviewable_provider_preprint_word)s. Each %(reviewable_provider_preprint_word)s is associated with a project on the GakuNin RDM for managing the %(reviewable_provider_preprint_word)s. To change your email notification preferences, visit your <a %(domain)s>user settings</a>."
+msgstr ""
+
+#: website/templates/emails/reviews_update_comment.html.mako
+msgid "For more information about %(reviewable_provider_name)s, visit %(provider_url)s</a> to learn more. To learn about the GakuNin RDM, visit https://rdm.nii.ac.jp/."
+msgstr ""
+
+

@@ -1,0 +1,605 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-03 09:35+0900\n"
+"PO-Revision-Date: 2019-11-27 12:59+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: website/static/js/addonsJson.js:6
+msgid "addons"
+msgstr ""
+
+#: website/static/js/addonsJson.js:7
+msgid "GitHub"
+msgstr ""
+
+#: website/static/js/addonsJson.js:8 website/static/js/addonsJson.js:38
+#: website/static/js/addonsJson.js:68 website/static/js/addonsJson.js:98
+#: website/static/js/addonsJson.js:128 website/static/js/addonsJson.js:158
+#: website/static/js/addonsJson.js:188 website/static/js/addonsJson.js:218
+#: website/static/js/addonsJson.js:248 website/static/js/addonsJson.js:278
+msgid "Permissions"
+msgstr ""
+
+#: website/static/js/addonsJson.js:9 website/static/js/addonsJson.js:13
+#: website/static/js/addonsJson.js:17 website/static/js/addonsJson.js:21
+#: website/static/js/addonsJson.js:25 website/static/js/addonsJson.js:29
+#: website/static/js/addonsJson.js:33 website/static/js/addonsJson.js:39
+#: website/static/js/addonsJson.js:43 website/static/js/addonsJson.js:47
+#: website/static/js/addonsJson.js:51 website/static/js/addonsJson.js:55
+#: website/static/js/addonsJson.js:59 website/static/js/addonsJson.js:63
+#: website/static/js/addonsJson.js:69 website/static/js/addonsJson.js:73
+#: website/static/js/addonsJson.js:77 website/static/js/addonsJson.js:81
+#: website/static/js/addonsJson.js:85 website/static/js/addonsJson.js:89
+#: website/static/js/addonsJson.js:93 website/static/js/addonsJson.js:99
+#: website/static/js/addonsJson.js:103 website/static/js/addonsJson.js:107
+#: website/static/js/addonsJson.js:111 website/static/js/addonsJson.js:115
+#: website/static/js/addonsJson.js:119 website/static/js/addonsJson.js:123
+#: website/static/js/addonsJson.js:129 website/static/js/addonsJson.js:133
+#: website/static/js/addonsJson.js:137 website/static/js/addonsJson.js:141
+#: website/static/js/addonsJson.js:145 website/static/js/addonsJson.js:149
+#: website/static/js/addonsJson.js:153 website/static/js/addonsJson.js:159
+#: website/static/js/addonsJson.js:163 website/static/js/addonsJson.js:167
+#: website/static/js/addonsJson.js:171 website/static/js/addonsJson.js:175
+#: website/static/js/addonsJson.js:179 website/static/js/addonsJson.js:183
+#: website/static/js/addonsJson.js:189 website/static/js/addonsJson.js:193
+#: website/static/js/addonsJson.js:197 website/static/js/addonsJson.js:201
+#: website/static/js/addonsJson.js:205 website/static/js/addonsJson.js:209
+#: website/static/js/addonsJson.js:213 website/static/js/addonsJson.js:219
+#: website/static/js/addonsJson.js:223 website/static/js/addonsJson.js:227
+#: website/static/js/addonsJson.js:231 website/static/js/addonsJson.js:235
+#: website/static/js/addonsJson.js:239 website/static/js/addonsJson.js:243
+#: website/static/js/addonsJson.js:249 website/static/js/addonsJson.js:253
+#: website/static/js/addonsJson.js:257 website/static/js/addonsJson.js:261
+#: website/static/js/addonsJson.js:265 website/static/js/addonsJson.js:269
+#: website/static/js/addonsJson.js:273 website/static/js/addonsJson.js:279
+#: website/static/js/addonsJson.js:283
+msgid "status"
+msgstr ""
+
+#: website/static/js/addonsJson.js:9 website/static/js/addonsJson.js:29
+#: website/static/js/addonsJson.js:33 website/static/js/addonsJson.js:39
+#: website/static/js/addonsJson.js:59 website/static/js/addonsJson.js:63
+#: website/static/js/addonsJson.js:69 website/static/js/addonsJson.js:73
+#: website/static/js/addonsJson.js:85 website/static/js/addonsJson.js:89
+#: website/static/js/addonsJson.js:93 website/static/js/addonsJson.js:99
+#: website/static/js/addonsJson.js:103 website/static/js/addonsJson.js:107
+#: website/static/js/addonsJson.js:111 website/static/js/addonsJson.js:115
+#: website/static/js/addonsJson.js:119 website/static/js/addonsJson.js:123
+#: website/static/js/addonsJson.js:129 website/static/js/addonsJson.js:145
+#: website/static/js/addonsJson.js:149 website/static/js/addonsJson.js:153
+#: website/static/js/addonsJson.js:159 website/static/js/addonsJson.js:175
+#: website/static/js/addonsJson.js:179 website/static/js/addonsJson.js:183
+#: website/static/js/addonsJson.js:189 website/static/js/addonsJson.js:193
+#: website/static/js/addonsJson.js:205 website/static/js/addonsJson.js:209
+#: website/static/js/addonsJson.js:213 website/static/js/addonsJson.js:219
+#: website/static/js/addonsJson.js:235 website/static/js/addonsJson.js:239
+#: website/static/js/addonsJson.js:243 website/static/js/addonsJson.js:249
+#: website/static/js/addonsJson.js:265 website/static/js/addonsJson.js:269
+#: website/static/js/addonsJson.js:273 website/static/js/addonsJson.js:279
+msgid "partial"
+msgstr ""
+
+#: website/static/js/addonsJson.js:10 website/static/js/addonsJson.js:14
+#: website/static/js/addonsJson.js:18 website/static/js/addonsJson.js:22
+#: website/static/js/addonsJson.js:26 website/static/js/addonsJson.js:30
+#: website/static/js/addonsJson.js:34 website/static/js/addonsJson.js:40
+#: website/static/js/addonsJson.js:44 website/static/js/addonsJson.js:48
+#: website/static/js/addonsJson.js:52 website/static/js/addonsJson.js:56
+#: website/static/js/addonsJson.js:60 website/static/js/addonsJson.js:64
+#: website/static/js/addonsJson.js:70 website/static/js/addonsJson.js:74
+#: website/static/js/addonsJson.js:78 website/static/js/addonsJson.js:82
+#: website/static/js/addonsJson.js:86 website/static/js/addonsJson.js:90
+#: website/static/js/addonsJson.js:94 website/static/js/addonsJson.js:100
+#: website/static/js/addonsJson.js:104 website/static/js/addonsJson.js:108
+#: website/static/js/addonsJson.js:112 website/static/js/addonsJson.js:116
+#: website/static/js/addonsJson.js:120 website/static/js/addonsJson.js:124
+#: website/static/js/addonsJson.js:130 website/static/js/addonsJson.js:134
+#: website/static/js/addonsJson.js:138 website/static/js/addonsJson.js:142
+#: website/static/js/addonsJson.js:146 website/static/js/addonsJson.js:150
+#: website/static/js/addonsJson.js:154 website/static/js/addonsJson.js:160
+#: website/static/js/addonsJson.js:164 website/static/js/addonsJson.js:168
+#: website/static/js/addonsJson.js:172 website/static/js/addonsJson.js:176
+#: website/static/js/addonsJson.js:180 website/static/js/addonsJson.js:184
+#: website/static/js/addonsJson.js:190 website/static/js/addonsJson.js:194
+#: website/static/js/addonsJson.js:198 website/static/js/addonsJson.js:202
+#: website/static/js/addonsJson.js:206 website/static/js/addonsJson.js:210
+#: website/static/js/addonsJson.js:214 website/static/js/addonsJson.js:220
+#: website/static/js/addonsJson.js:224 website/static/js/addonsJson.js:228
+#: website/static/js/addonsJson.js:232 website/static/js/addonsJson.js:236
+#: website/static/js/addonsJson.js:240 website/static/js/addonsJson.js:244
+#: website/static/js/addonsJson.js:250 website/static/js/addonsJson.js:254
+#: website/static/js/addonsJson.js:258 website/static/js/addonsJson.js:262
+#: website/static/js/addonsJson.js:266 website/static/js/addonsJson.js:270
+#: website/static/js/addonsJson.js:274 website/static/js/addonsJson.js:280
+msgid "text"
+msgstr ""
+
+#: website/static/js/addonsJson.js:10
+msgid ""
+"Making a GakuNin RDM project public or private is independent of making a"
+" GitHub repo public or private. The GakuNin RDM does not alter the "
+"permissions of linked GitHub repos."
+msgstr ""
+
+#: website/static/js/addonsJson.js:12 website/static/js/addonsJson.js:42
+#: website/static/js/addonsJson.js:72 website/static/js/addonsJson.js:102
+#: website/static/js/addonsJson.js:132 website/static/js/addonsJson.js:162
+#: website/static/js/addonsJson.js:192 website/static/js/addonsJson.js:222
+#: website/static/js/addonsJson.js:252 website/static/js/addonsJson.js:282
+msgid "View / download file versions"
+msgstr ""
+
+#: website/static/js/addonsJson.js:13 website/static/js/addonsJson.js:17
+#: website/static/js/addonsJson.js:21 website/static/js/addonsJson.js:25
+#: website/static/js/addonsJson.js:43 website/static/js/addonsJson.js:77
+#: website/static/js/addonsJson.js:81 website/static/js/addonsJson.js:133
+#: website/static/js/addonsJson.js:137 website/static/js/addonsJson.js:141
+#: website/static/js/addonsJson.js:163 website/static/js/addonsJson.js:197
+#: website/static/js/addonsJson.js:201 website/static/js/addonsJson.js:223
+#: website/static/js/addonsJson.js:227 website/static/js/addonsJson.js:231
+#: website/static/js/addonsJson.js:253 website/static/js/addonsJson.js:257
+#: website/static/js/addonsJson.js:261
+msgid "full"
+msgstr ""
+
+#: website/static/js/addonsJson.js:14
+msgid "GitHub files and their versions can be viewed/downloaded via GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:16 website/static/js/addonsJson.js:46
+#: website/static/js/addonsJson.js:76 website/static/js/addonsJson.js:106
+#: website/static/js/addonsJson.js:136 website/static/js/addonsJson.js:166
+#: website/static/js/addonsJson.js:196 website/static/js/addonsJson.js:226
+#: website/static/js/addonsJson.js:256
+msgid "Add / update files"
+msgstr ""
+
+#: website/static/js/addonsJson.js:18
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" GitHub."
+msgstr ""
+
+#: website/static/js/addonsJson.js:20 website/static/js/addonsJson.js:50
+#: website/static/js/addonsJson.js:80 website/static/js/addonsJson.js:110
+#: website/static/js/addonsJson.js:140 website/static/js/addonsJson.js:170
+#: website/static/js/addonsJson.js:200 website/static/js/addonsJson.js:230
+#: website/static/js/addonsJson.js:260
+msgid "Delete files"
+msgstr ""
+
+#: website/static/js/addonsJson.js:22
+msgid "Files deleted via GakuNin RDM will be deleted in GitHub."
+msgstr ""
+
+#: website/static/js/addonsJson.js:24 website/static/js/addonsJson.js:54
+#: website/static/js/addonsJson.js:84 website/static/js/addonsJson.js:114
+#: website/static/js/addonsJson.js:144 website/static/js/addonsJson.js:174
+#: website/static/js/addonsJson.js:204 website/static/js/addonsJson.js:234
+#: website/static/js/addonsJson.js:264
+msgid "Logs"
+msgstr ""
+
+#: website/static/js/addonsJson.js:26
+msgid ""
+"GitHub dynamically updates GakuNin RDM logs when files are modified "
+"outside the GakuNin RDM. Changes to GitHub repos made before the repo is "
+"linked to the GakuNin RDM will not be reflected in GakuNin RDM logs."
+msgstr ""
+
+#: website/static/js/addonsJson.js:28 website/static/js/addonsJson.js:58
+#: website/static/js/addonsJson.js:88 website/static/js/addonsJson.js:118
+#: website/static/js/addonsJson.js:148 website/static/js/addonsJson.js:178
+#: website/static/js/addonsJson.js:208 website/static/js/addonsJson.js:238
+#: website/static/js/addonsJson.js:268
+msgid "Forking"
+msgstr ""
+
+#: website/static/js/addonsJson.js:30
+msgid ""
+"Forking a project or component does not copy Github authorization unless "
+"the user forking the project is the same user who authorized the Github "
+"add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:32 website/static/js/addonsJson.js:62
+#: website/static/js/addonsJson.js:92 website/static/js/addonsJson.js:122
+#: website/static/js/addonsJson.js:152 website/static/js/addonsJson.js:182
+#: website/static/js/addonsJson.js:212 website/static/js/addonsJson.js:242
+#: website/static/js/addonsJson.js:272
+msgid "Registering"
+msgstr ""
+
+#: website/static/js/addonsJson.js:34
+msgid ""
+"GitHub content will be registered, but version history will not be copied"
+" to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:37
+msgid "GitLab"
+msgstr ""
+
+#: website/static/js/addonsJson.js:40
+msgid ""
+"Making a GakuNin RDM project public or private is independent of making a"
+" GitLab repo public or private. The GakuNin RDM does not alter the "
+"permissions of linked GitLab repos."
+msgstr ""
+
+#: website/static/js/addonsJson.js:44
+msgid "GitLab files and their versions can be viewed/downloaded via GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:47 website/static/js/addonsJson.js:51
+#: website/static/js/addonsJson.js:55 website/static/js/addonsJson.js:167
+#: website/static/js/addonsJson.js:171
+msgid "none"
+msgstr ""
+
+#: website/static/js/addonsJson.js:48
+msgid ""
+"Adding/updating files in the project via GakuNin RDM is not implemented "
+"yet."
+msgstr ""
+
+#: website/static/js/addonsJson.js:52
+msgid "Deleting files via GakuNin RDM is not implemented yet."
+msgstr ""
+
+#: website/static/js/addonsJson.js:56
+msgid "GakuNin RDM does not keep track of changes made using Gitlab directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:60
+msgid ""
+"Forking a project or component does not copy GitLab authorization unless "
+"the user forking the project is the same user who authorized the GitLab "
+"add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:64
+msgid ""
+"GitLab content will be registered, but version history will not be copied"
+" to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:67
+msgid "Amazon S3"
+msgstr ""
+
+#: website/static/js/addonsJson.js:70
+msgid ""
+"Making a GakuNin RDM project public or private is independent of making "
+"an S3 bucket public or private. The GakuNin RDM does not alter the "
+"permissions of linked S3 buckets."
+msgstr ""
+
+#: website/static/js/addonsJson.js:74
+msgid ""
+"The S3 add-on supports file versions if versioning is enabled for your S3"
+" buckets."
+msgstr ""
+
+#: website/static/js/addonsJson.js:78
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" Amazon S3."
+msgstr ""
+
+#: website/static/js/addonsJson.js:82
+msgid "Files deleted via GakuNin RDM will be deleted in Amazon S3."
+msgstr ""
+
+#: website/static/js/addonsJson.js:86
+msgid ""
+"The GakuNin RDM keeps track of changes you make to your S3 buckets "
+"through the GakuNin RDM, but not for changes made using S3 directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:90
+msgid ""
+"Forking a project or component does not copy S3 authorization unless the "
+"user forking the project is the same user who authorized the S3 add-on in"
+" the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:94
+msgid ""
+"S3 content will be registered, but version history will not be copied to "
+"the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:97
+msgid "figshare"
+msgstr ""
+
+#: website/static/js/addonsJson.js:100
+msgid ""
+" Making a GakuNin RDM project public or private is independent of making "
+"figshare content public or private. The GakuNin RDM does not alter the "
+"permissions of linked figshare content."
+msgstr ""
+
+#: website/static/js/addonsJson.js:104
+msgid ""
+"figshare files can be viewed/downloaded via GakuNin RDM, but version "
+"history is not supported."
+msgstr ""
+
+#: website/static/js/addonsJson.js:108
+msgid "Files can be added but not updated."
+msgstr ""
+
+#: website/static/js/addonsJson.js:112
+msgid "Private files and filesets can be deleted via GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:116
+msgid ""
+"GakuNin RDM keeps track of changes you make to your figshare content "
+"through GakuNin RDM, but not for changes made using figshare directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:120
+msgid ""
+"Forking a project or component does not copy figshare authorization "
+"unless the user forking the project is the same user who authorized the "
+"figshare add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:124
+msgid ""
+"figshare content will be registered, but version history will not be "
+"copied to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:127
+msgid "Dropbox"
+msgstr ""
+
+#: website/static/js/addonsJson.js:130
+msgid ""
+"Making a GakuNin RDM project public or private is independent of Dropbox "
+"privacy. The GakuNin RDM does not alter the permissions of linked Dropbox"
+" folders."
+msgstr ""
+
+#: website/static/js/addonsJson.js:134
+msgid "Dropbox files and their versions can be viewed/downloaded via GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:138
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" Dropbox."
+msgstr ""
+
+#: website/static/js/addonsJson.js:142
+msgid "Files deleted via GakuNin RDM will be deleted in Dropbox."
+msgstr ""
+
+#: website/static/js/addonsJson.js:146
+msgid ""
+"GakuNin RDM keeps track of changes you make to your Dropbox content "
+"through GakuNin RDM, but not for changes made using Dropbox directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:150
+msgid ""
+"Forking a project or component does not copy Dropbox authorization unless"
+" the user forking the project is the same user who authorized the Dropbox"
+" add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:154
+msgid ""
+"Dropbox content will be registered, but version history will not be "
+"copied to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:157
+msgid "OneDrive"
+msgstr ""
+
+#: website/static/js/addonsJson.js:160
+msgid ""
+"Making a GakuNin RDM project public or private is independent of OneDrive"
+" privacy. The GakuNin RDM does not alter the permissions of linked "
+"OneDrive folders."
+msgstr ""
+
+#: website/static/js/addonsJson.js:164
+msgid ""
+"OneDrive files and their versions can be viewed/downloaded via GakuNin "
+"RDM.  OneNote files are unexportable and cannot be downloaded or viewed."
+msgstr ""
+
+#: website/static/js/addonsJson.js:168 website/static/js/addonsJson.js:172
+msgid "The OneDrive add-on is read-only."
+msgstr ""
+
+#: website/static/js/addonsJson.js:176
+msgid ""
+"GakuNin RDM keeps track of changes you make to your OneDrive add-on "
+"configuration.  It does not track changes to OneDrive content."
+msgstr ""
+
+#: website/static/js/addonsJson.js:180
+msgid ""
+"Forking a project or component does not copy OneDrive authorization "
+"unless the user forking the project is the same user who authorized the "
+"OneDrive add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:184
+msgid ""
+"OneDrive content will be registered, but version history will not be "
+"copied to the registration. OneNote files are unexportable and will not "
+"be archived."
+msgstr ""
+
+#: website/static/js/addonsJson.js:187
+msgid "Dataverse"
+msgstr ""
+
+#: website/static/js/addonsJson.js:190
+msgid ""
+"Making a GakuNin RDM project public or private is independent of making a"
+" Dataverse study public or private. The GakuNin RDM allows you to release"
+" the latest draft version of a Dataverse dataset."
+msgstr ""
+
+#: website/static/js/addonsJson.js:194
+msgid ""
+"Files from the latest release of the selected Dataverse study can be "
+"viewed/downloaded. GakuNin RDM users with write permissions can "
+"view/download draft files as well."
+msgstr ""
+
+#: website/static/js/addonsJson.js:198
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" Dataverse."
+msgstr ""
+
+#: website/static/js/addonsJson.js:202
+msgid "Files deleted via GakuNin RDM will be deleted in Dataverse."
+msgstr ""
+
+#: website/static/js/addonsJson.js:206
+msgid ""
+"The GakuNin RDM keeps track of changes you make to your Dataverse studies"
+" through the GakuNin RDM, but not for changes made using Dataverse "
+"directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:210
+msgid ""
+"Forking a project or component does not copy Dataverse authorization "
+"unless the user forking the project is the same user who authorized the "
+"Dataverse add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:214
+msgid ""
+"Dataverse content will be registered, but version history will not be "
+"copied to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:217
+msgid "Google Drive"
+msgstr ""
+
+#: website/static/js/addonsJson.js:220
+msgid ""
+"Making a GakuNin RDM project public or private is independent of Google "
+"Drive privacy. The GakuNin RDM does not alter the permissions of linked "
+"Google Drive folders."
+msgstr ""
+
+#: website/static/js/addonsJson.js:224
+msgid ""
+"Google Drive files and their versions can be viewed/downloaded via "
+"GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:228
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" Google Drive."
+msgstr ""
+
+#: website/static/js/addonsJson.js:232
+msgid "Files deleted via GakuNin RDM will be deleted in Google Drive."
+msgstr ""
+
+#: website/static/js/addonsJson.js:236
+msgid ""
+"The GakuNin RDM keeps track of changes you make to your Google Drive "
+"content through the GakuNin RDM, but not for changes made using Google "
+"Drive directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:240
+msgid ""
+"Forking a project or component does not copy Google Drive authorization "
+"unless the user forking the project is the same user who authorized the "
+"Google Drive add-on in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:244
+msgid ""
+"Google Drive content will be registered, but version history will not be "
+"copied to the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:247
+msgid "Box"
+msgstr ""
+
+#: website/static/js/addonsJson.js:250
+msgid ""
+"Making a GakuNin RDM project public or private is independent of Box "
+"privacy. The GakuNin RDM does not alter the permissions of linked Box "
+"folders."
+msgstr ""
+
+#: website/static/js/addonsJson.js:254
+msgid "Box files and their versions can be viewed/downloaded via GakuNin RDM."
+msgstr ""
+
+#: website/static/js/addonsJson.js:258
+msgid ""
+"Adding/updating files in the project via GakuNin RDM will be reflected in"
+" Box."
+msgstr ""
+
+#: website/static/js/addonsJson.js:262
+msgid "Files deleted via GakuNin RDM will be deleted in Box."
+msgstr ""
+
+#: website/static/js/addonsJson.js:266
+msgid ""
+"The GakuNin RDM keeps track of changes you make to your Box content "
+"through the GakuNin RDM, but not for changes made using Box directly."
+msgstr ""
+
+#: website/static/js/addonsJson.js:270
+msgid ""
+"Forking a project or component does not copy Box authorization unless the"
+" user forking the project is the same user who authorized the Box add-on "
+"in the source project being forked."
+msgstr ""
+
+#: website/static/js/addonsJson.js:274
+msgid ""
+"Box content will be registered, but version history will not be copied to"
+" the registration."
+msgstr ""
+
+#: website/static/js/addonsJson.js:277
+msgid "Mendeley"
+msgstr ""
+
+#: website/static/js/addonsJson.js:280
+msgid ""
+"Making a GakuNin RDM project public or private is independent of making a"
+" Mendeley folder public or private. The GakuNin RDM does not alter the "
+"permissions of a linked Mendeley folder."
+msgstr ""
+
