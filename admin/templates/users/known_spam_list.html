@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}
+<title>{% trans "Known Spam Users" %}</title>
+{% endblock title %}
+{% block content %}
+  {% include 'users/user_list.html' %}
+{% endblock content %}

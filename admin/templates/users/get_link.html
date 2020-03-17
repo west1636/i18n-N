@@ -1,0 +1,23 @@
+{% load i18n %}
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">x</button>
+    <h3>{% blocktrans %}{{ title }} for user {{ username }}{% endblocktrans %}</h3>
+</div>
+<div class="modal-body">
+    {% if user_link %}
+    <p>{{ user_link }}</p>
+    {% endif %}
+    {% if node_claim_links %}
+    <ul>
+        {% for link in node_claim_links %}
+        <li>{{ link }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default"
+            data-dismiss="modal">
+        {% trans "Cancel" %}
+    </button>
+</div>

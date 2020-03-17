@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% load static %}
+{% block title %}
+    <title>{% trans "GakuNIn RDM Admin | Meetings" %}</title>
+{% endblock title %}
+
+{% block content %}
+    <form action="{% url 'meetings:create' %}" method="post">
+    {{ form.non_field_errors }}
+    {% csrf_token %}
+    {% for field in form %}
+        {% if not field.is_hidden %}
+        <div class="fieldWrapper">
+            <span class="text-danger">{{ field.errors }}</span>
+            {{ field.label_tag }} <br>
+            {{ field }}
+        </div>
+        {% endif %}
+        <br>
+    {% endfor %}
+    {% for hidden in form.hidden_fields %}
+        {{ hidden }}
+    {% endfor %}
+    <input type="submit" class="btn btn-primary" value="Save">
+    </form>
+{% endblock content %}

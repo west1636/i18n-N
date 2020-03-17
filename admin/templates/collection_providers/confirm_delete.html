@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block title %}
+    <title>{% trans "Delete Collection Provider" %}</title>
+{% endblock title %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="" method="post">{% csrf_token %}
+                    <p>{% blocktrans %}Are you sure you want to delete "{{ object.name }}"?{% endblocktrans %}</p>
+                    <input class="btn btn-primary" type="submit" value="Confirm" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
